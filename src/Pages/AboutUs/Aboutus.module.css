@@ -1,0 +1,121 @@
+.title{
+    font-size: 80px;
+    font-weight: 600;
+    padding-left: 2em;
+}
+
+.header-img{
+    width: 500px;
+}
+
+.about-img{
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 4px 4px #ccc;
+    margin-left: 6em;
+    margin-top: 6em;
+}
+
+.about-div{
+    display: block;
+}
+
+h6{
+    font-size: 32px;
+    font-weight: 400;
+    color: #4DC879;
+    width: 100%;
+    text-align: left;
+    padding-left: 0.8em;
+    margin: 0.4em;
+}
+
+h4{
+    font-size: 48px;
+    padding-left: 0.8em;
+    margin: 0;
+    text-align: left;
+}
+
+p{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 2.2em;
+    width: 100%;
+    color: rgba(0,0,0,0.7);
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+}
+
+.tick-icon{
+    color: #4DC879;
+    margin: 0;
+    padding-right: 8px;
+}
+
+li{
+    display: flex;
+    color: rgba(0,0,0,0.7);
+    padding-bottom: 1em;
+}
+
+.explore-btn{
+    float: left;
+    margin-left: 2.8em;
+    width: fit-content;
+    font-size: 16px;
+    padding: 0.8em;
+    border: none;
+    border-radius: 10px;
+    background-color: #272727;
+    color: #fff;
+}
+
+.explore-btn:hover{
+    color: #272727;
+    background-color: #4DC879;
+}
+
+@media screen and (max-width:768px) {
+    .title{
+        font-size: 60px;
+        padding-left: 1em;
+    }
+
+    .header-img{
+        width: 400px;
+        padding-top: 2em;
+    }
+
+    .about-img{
+        width: 500px;
+        margin-left: 3em;
+        margin-top: 10em;
+    }
+
+    h6{
+        font-size: 24px;
+    }
+
+    h4{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 16px;
+        padding-left: 1.6em;
+    }
+
+    li{
+        font-size: 16px;
+        padding-bottom: 0.4em;
+    }
+
+    .explore-btn{
+        margin-left: 2.2em;
+    }
+}

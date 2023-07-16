@@ -1,0 +1,103 @@
+.title{
+    font-size: 80px;
+    font-weight: 600;
+    padding-left: 2em;
+}
+
+.header-img{
+    width: 500px;
+}
+
+.contactus-card{
+    border: 1px solid #ccc;
+    margin: auto;
+    margin-top: 3em;
+    padding: 2em;
+    border-radius: 8px;
+    width:40%;
+}
+
+.contactus-card p{
+    text-align: center;
+    padding: 0;
+}
+
+.contactus-icon{
+    background-color: #ccc;
+    color:#4DC879;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.contactus-form{
+    border: none;
+    border-radius: 8px;
+    margin:auto;
+    margin-top: 3em;
+    margin-right: 3em;
+    margin-left: 5em;
+    background-color: #FFF9EB;
+    padding: 2em;
+}
+
+.contactus-form h6{
+    text-align: center;
+    padding-left: 0;
+}
+
+.contactus-form div{
+    display: block;
+    margin-bottom: 1em;
+}
+
+.contactus-form label{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    padding-left: 1.4em;
+    color: rgba(0,0,0,0.7);
+}
+
+.contactus-form input{
+    width: 90%;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.4em;
+}
+
+.contactus-form textarea{
+    width: 90%;
+    font-size: 20px;
+    padding: 0.4em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contactus-form button{
+    width: 30%;
+    padding: 0.8em;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #272727;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.contactus-form button:hover{
+    background-color: #4DC879;
+    border: none;
+    color: #fff;
+}
+
+@media screen and (max-width:768px) {
+    .title{
+        font-size: 60px;
+        padding-left: 1em;
+    }
+
+    .header-img{
+        width: 400px;
+        padding-top: 2em;
+    }
+}

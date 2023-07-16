@@ -1,0 +1,21 @@
+.title{
+    font-size: 56px;
+    font-weight: 600;
+    padding-left: 2em;
+}
+
+.header-img{
+    width: 500px;
+}
+
+@media screen and (max-width:768px) {
+    .title{
+        font-size: 32px;
+        padding-left: 1em;
+    }
+
+    .header-img{
+        width: 400px;
+        padding-top: 2em;
+    }
+}
