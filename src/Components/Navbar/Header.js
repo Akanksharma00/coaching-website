@@ -1,46 +1,66 @@
-import React from "react";
-import { styled } from "styled-components";
-import { Grid } from "@mui/material";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
-
-export const Nav = styled.nav`
-    // background-color: #FFF9EB;
-`;
-
-export const Ul = styled.ul`
-    list-style: none;
-    display: flex;
-`;
-
-export const Li = styled.li`
-    text-decoration: none;
-    margin-right: 2em;
-    position: relative;
-`;
-
-export const NavButton = styled.button`
-    border: none;
-    background-color: #FFF9EB;
-    color: inherit;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    
-`;
+import style from "../../Styles/Navbar.module.css";
+import { Grid } from "@mui/material";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import MobileNav from "./MobileNav";
 
 const Header = () => {
+  const [width, setWidth] = useState(window?.innerWidth);
+  const [height, setHeight] = useState(window?.innerHeight);
+  const [openProfile, setOpenProfile] = useState(false);
+
+  const updateDimensions = () => {
+    setWidth(window?.innerWidth);
+    setHeight(window?.innerHeight);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateDimensions);
+    return () => window.removeEventListener("resize", updateDimensions);
+  });
+
   return (
-    <header>
-        <Grid container style={{backgroundColor:"#fff9eb"}}>
-            <Grid item xs={2} md={2} p={2}>
-                <Link to="/" style={{textDecoration:"none"}}>Logo</Link>
-            </Grid>
-            <Grid item xs={8} md={8}><Navbar /></Grid>
-            <Grid item xs={2} md={2} p={2}>Profile</Grid>
-        </Grid>
-    </header>
+    <Grid container className={style["header-container"]}>
+      {window?.innerWidth < 960 ? (
+        <>
+          <Grid item xs={10} className={style["mobile-navbar"]}>
+            <MobileNav />
+          </Grid>
+          <Grid item xs={2}>
+            Logo
+          </Grid>
+        </>
+      ) : (
+        <>
+          <Grid item xs={2}>
+            Logo
+          </Grid>
+          <Grid item xs={8}>
+            <Navbar />
+          </Grid>
+          <Grid item xs={2}>
+            <button
+              className={style["profile-btn"]}
+              onMouseOver={() => setOpenProfile(true)}
+              onMouseOut={() => setOpenProfile(false)}
+            >
+              <AccountCircleIcon width="2em" />
+            </button>
+            {openProfile && (
+              <ul
+                className={style["profile-list"]}
+                onMouseOver={() => setOpenProfile(true)}
+                onMouseOut={() => setOpenProfile(false)}
+              >
+                <li>Profile</li>
+                <li>Logout</li>
+              </ul>
+            )}
+          </Grid>
+        </>
+      )}
+    </Grid>
   );
 };
 

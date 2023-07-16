@@ -1,0 +1,149 @@
+/* ///////////////////////////////// NAVBAR ///////////////////////////////////////////////////////// */
+.header-container{
+    border: none;
+    background-color: #FFF9EB;
+    color: rgb(40, 40, 40);
+    font-size: 16px;
+    padding: 0.8em;
+}
+
+.profile-btn{
+    border: none;
+    background-color: transparent;
+}
+
+.profile-list{
+    background-color: #FFF9EB;
+    position: absolute;
+    z-index: 10;
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+    list-style: none;
+    width: fit-content;
+    top: 1.4em;
+    padding-left: 0;
+    left: 86%;
+}
+
+.profile-list li{
+    border-bottom: 1px solid #ccc;
+    padding: 0.8em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.menus{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.menus li{
+    padding-right: 2.4em;
+}
+
+.menus li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.dropdown-btn{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding-right: 0.2em;
+    display: flex;
+    color: inherit;
+}
+
+.arrow-icon{
+    padding-left: 0.2em;
+    margin-top: -3px;
+}
+
+.dropdown-expanded{
+    display: block;
+    position: absolute;
+    z-index: 100;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+    background-color: #FFF9EB;
+    padding-left: 0;
+    top: 2em;
+}
+
+.dropdown-expanded li{
+    padding: 0.8em 1em 0.4em 1em;
+    display: flex;
+    justify-content: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.dropdown-collapsed{
+    display: none;
+}
+
+.dropdown-submenu{
+    position: absolute;
+    left: 100%;
+    top: 2.6em;
+}
+
+.dropdown-submenu li{
+    width: 160px;
+}
+
+
+
+
+
+/* ///////////////////////////////// MOBILE NAVBAR ////////////////////////////////////////////////// */
+.mobile-navbar{
+    display: flex;
+    justify-content: start;
+}
+
+.hamburger-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 4em;
+}
+
+.mobile-menus{
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+    position: absolute;
+    z-index: 10;
+    margin-left: 0.4em;
+    list-style: none;
+    padding-left: 0;
+    top: 1em;
+    background-color: #FFF9EB;
+}
+
+.mobile-menus li{
+    border:1px solid #ccc;
+    padding: 0.8em 2em 0.8em 2em;
+}
+
+.mobile-menus li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.mobile-dropdown-btn{
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+}
+
+.mobile-dropdown-submenu{
+    position: absolute;
+    left: 0%;
+    top: auto;
+    width: inherit;
+    margin-top: 2em;
+}

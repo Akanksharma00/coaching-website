@@ -6,6 +6,11 @@ import AboutUs from "./Pages/AboutUs/AboutUs";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import Home from "./Pages/Home/HomePage";
 import Footer from "./Components/Footer/Footer";
+import Mathematics from "./Pages/Mathematics/Mathematics";
+import GuptaClass from "./Pages/GuptaClass/GuptaClass";
+import Yoga from "./Pages/Yoga/Yoga";
+import Events from "./Pages/Events/Events";
+import Blogs from "./Pages/Blogs/Blogs";
 
 function App() {
   return (
@@ -15,6 +20,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/courses/mathematics" element={<Mathematics />} />
+        <Route path="/courses/specialCourses/21DaysGuptaClasses" element={<GuptaClass />} />
+        <Route path="/courses/specialCourses/Yoga" element={<Yoga />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact" element={<ContactUs />} />
         
       </Routes>

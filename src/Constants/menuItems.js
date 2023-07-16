@@ -4,42 +4,58 @@ export const menuItems = [
         url: '/',
     },
     {
-        title: 'Career',
-        url: '/career',
-        submenu: [
+        title: 'About Us',
+        url:'/about',
+    },
+    {
+        title: 'Courses',
+        url: '/courses',
+        subMenu: [
             {
-                title: 'Class 12',
-                url: 'class12',
-                submenu: [
-                    {
-                        title: 'Medical',
-                        url: 'medical',
-                    },
-                    {
-                        title: 'Non Medical',
-                        url: 'nonmedical',
-                    }
-                ]
+                title: 'Mathematics',
+                url: 'courses/mathematics',
             },
             {
-                title: 'Graduation',
-                url: 'graduation',
-                submenu: [
+                title: 'Special Courses',
+                url: 'specialCourses',
+                subMenu: [
                     {
-                        title: 'MTech',
-                        url: 'mtech',
+                        title: '21 Days Gupta Classes',
+                        url: 'courses/specialCourses/21DaysGuptaClasses',
                     },
                     {
-                        title: 'MBA',
-                        url: 'mba',
+                        title: 'Yoga',
+                        url: 'courses/specialCourses/yoga',
                     }
                 ]
             }
         ]
     },
     {
-        title: 'About Us',
-        url:'/about',
+        title: 'Events',
+        url:'/events',
+    },
+    {
+        title: 'Blogs',
+        url:'/blogs',
+    },
+    {
+        title: 'Admission Form',
+        url:'/admissionForm',
+        subMenu: [
+            {
+                title: 'Mathematics Class',
+                url: 'https://docs.google.com/forms/d/e/1FAIpQLSc9WbpWOV_evAEhCiQ4B8A1H-5KXS19ItbBnmKTPYW2O4tf0Q/viewform',
+            },
+            {
+                title: '21 Days Gupta Class',
+                url: '#',
+            },
+            {
+                title: 'Yoga',
+                url: '#',
+            }
+        ]
     },
     {
         title: 'Contact Us',

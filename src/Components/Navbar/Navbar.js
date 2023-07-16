@@ -1,19 +1,19 @@
-import React from "react";
-import { menuItems } from "../../Constants/menuItems";
-import MenuItems from "./MenuItems";
-import { Nav, Ul } from "./Header";
+import React from 'react'
+import { menuItems } from '../../Constants/menuItems';
+import style from '../../Styles/Navbar.module.css';
+import MenuItems from './MenuItems';
 
 const Navbar = () => {
   return (
-    <Nav>
-      <Ul>
-        {menuItems?.map((val, index) => {
-          const depthLevel = 0;
-          return <MenuItems items={val} key={index} depthLevel={depthLevel}/>;
-        })}
-      </Ul>
-    </Nav>
-  );
-};
+    <nav>
+        <ul className={style['menus']}>
+            {menuItems?.map((val,index)=> {
+                const depthLevel = 0;
+                return <MenuItems items={val} key={index} depthLevel={depthLevel}/>
+            })}
+        </ul>
+    </nav>
+  )
+}
 
-export default Navbar;
+export default Navbar
