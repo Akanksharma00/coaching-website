@@ -20,9 +20,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
-        <Route path="/courses/mathematics" element={<Mathematics />} />
-        <Route path="/courses/specialCourses/21DaysGuptaClasses" element={<GuptaClass />} />
-        <Route path="/courses/specialCourses/Yoga" element={<Yoga />} />
+        <Route path="/mathematics" element={<Mathematics />} />
+        <Route path="/21DaysGuptaClasses" element={<GuptaClass />} />
+        <Route path="/Yoga" element={<Yoga />} />
         <Route path="/events" element={<Events />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact" element={<ContactUs />} />

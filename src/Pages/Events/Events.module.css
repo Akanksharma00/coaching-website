@@ -1,0 +1,118 @@
+.title{
+    font-size: 80px;
+    font-weight: 600;
+    padding-left: 2em;
+}
+
+.header-img{
+    width: 500px;
+}
+
+.event-container{
+    border: 1px solid #ccc;
+    box-shadow: 4px 4px #f4f4f4;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
+}
+
+.event-container img{
+    width: -webkit-fill-available;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.event-details{
+    padding: 0;
+    display: flex;
+    font-size: 16px;
+    color: #EB5942;
+}
+
+.event-date{
+    justify-content: start;
+    width: 50%;
+    text-align: start;
+    padding-left: 0.4em;
+}
+
+.event-venue{
+    width: 50%;
+    text-align: end;
+}
+
+.event-container h6{
+    padding: 0;
+    color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.event-desc{
+    padding: 0%;
+    font-size: 16px;
+    color: rgb(63, 63, 63);
+    padding-left: 0.4em;
+}
+
+.event-instructor{
+    padding: 0;
+    padding-left: 0.4em;
+}
+
+.event-container button{
+    width: 100%;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #EB5942;
+    font-size: 16px;
+}
+
+.event-section{
+    width: 80% !important;
+    margin: auto;
+}
+
+.event-heading{
+    text-align: center;
+    margin-top: 2em;
+}
+
+@media screen and (max-width:1022px) {
+    .title{
+        font-size: 60px;
+        padding-left: 1em;
+    }
+
+    .header-img{
+        width: 300px;
+        padding-top: 2em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .title{
+        font-size: 50px;
+        padding-left: 1em;
+    }
+
+    .header-img{
+        width: 250px;
+        padding-top: 2em;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .header-img{
+        display: none;
+    }
+
+    .title{
+        text-align: center;
+        font-size: 48px;
+        padding-bottom: 1em;
+    }
+}

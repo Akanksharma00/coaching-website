@@ -1,11 +1,137 @@
 .title{
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 600;
-    padding-left: 2em;
+    text-align: center;
+    padding: 2em 2em 1em 2em;
+    margin: auto;
 }
 
 .header-img{
     width: 500px;
+}
+
+.action-btn{
+    font-size: 18px;
+    margin-bottom: 4em;
+    padding: 1em;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    background-color: #272727;
+}
+
+.action-btn:hover{
+    background-color: #4DC879;
+    border: none;
+}
+
+.courses-head{
+    text-align: center;
+    margin-top: 2em;
+    font-weight: 500;
+}
+
+.courses-subhead{
+    text-align: center;
+    padding-top: 0.4em;
+    padding-bottom: 0.8em;
+}
+
+.courses-card-comntainer{
+    width: 80% !important;
+    margin: auto;
+}
+
+.card{
+    border: 1px solid #ccc;
+    border-radius: 0.8em;
+    margin: 2em;
+    padding: 1em;
+}
+
+.card img{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: -webkit-fill-available;
+}
+
+.card h6{
+    color: #373737;
+    font-size: 20px;
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+.card p{
+    padding: 0;
+    margin: auto;
+    font-size: 16px;
+}
+
+.card button{
+    padding: 1em;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 1.6em;
+    width: 100%;
+}
+
+.link{
+    color: #272727;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.card button:hover{
+    background-color: #4DC879;
+    border: none;
+}
+
+.card button:hover .link{
+    color: #fff !important;
+}
+
+.card Link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.instructor-card{
+    border: 1px solid #ccc;
+    border-radius: 0.8em;
+    padding: 1em;
+    margin: 1em;
+    background-color: #FFF9EB;
+}
+
+.instructor-card img{
+    width: -webkit-fill-available;
+    border: 1px solid #ccc;
+    border-radius: 0.8em;
+}
+
+.instructor-subcard{
+    border: 1px solid #ccc;
+    border-radius: 0.8em;
+    margin-top: 0.8em;
+    background-color: #ffffff;
+}
+
+.instructor-subcard p{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.instructor-subcard h6{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    border-bottom: 1px solid #ccc;
 }
 
 @media screen and (max-width:768px) {

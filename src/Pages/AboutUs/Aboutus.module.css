@@ -80,14 +80,26 @@ li{
     background-color: #4DC879;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1022px) {
     .title{
         font-size: 60px;
         padding-left: 1em;
     }
 
     .header-img{
-        width: 400px;
+        width: 300px;
+        padding-top: 2em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .title{
+        font-size: 50px;
+        padding-left: 1em;
+    }
+
+    .header-img{
+        width: 350px;
         padding-top: 2em;
     }
 
@@ -117,5 +129,23 @@ li{
 
     .explore-btn{
         margin-left: 2.2em;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .header-img{
+        display: none;
+    }
+
+    .title{
+        text-align: center;
+        font-size: 48px;
+        padding-bottom: 1em;
+    }
+
+    .about-img{
+        width: 500px;
+        margin-left: 3em;
+        margin-top: 5em;
     }
 }

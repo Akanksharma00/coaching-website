@@ -13,7 +13,7 @@ export const menuItems = [
         subMenu: [
             {
                 title: 'Mathematics',
-                url: 'courses/mathematics',
+                url: 'mathematics',
             },
             {
                 title: 'Special Courses',
@@ -21,11 +21,11 @@ export const menuItems = [
                 subMenu: [
                     {
                         title: '21 Days Gupta Classes',
-                        url: 'courses/specialCourses/21DaysGuptaClasses',
+                        url: '21DaysGuptaClasses',
                     },
                     {
                         title: 'Yoga',
-                        url: 'courses/specialCourses/yoga',
+                        url: 'yoga',
                     }
                 ]
             }
