@@ -55,6 +55,50 @@ p{
     background-color: #4DC879;
 }
 
+.key-features-container{
+    margin-top: 4em;
+    padding-left: 4em;
+}
+
+.key-features-heading{
+    text-align: left;
+    color: rgba(0,0,0,0.7);
+    font-weight: 500;
+}
+
+.key-features-div{
+    padding: 1em 2em 0em 2em;
+    text-align: left;
+    font-size: 16px;
+    color: rgba(0,0,0,0.7);
+}
+
+.key-features-title{
+    font-weight: 700;
+}
+
+.instructor-container{
+    border: 1px solid #ccc;
+    box-shadow: 4px 4px 2px #ccc;
+    width: 40%;
+    border-radius: 8px;
+    margin: auto;
+    padding: 2em;
+}
+
+.instructor-img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.instructor-container h6{
+    color: rgba(0,0,0,0.7);
+}
+
+.instructor-container p{
+    font-size: 16px;
+}
+
 @media screen and (max-width:1022px) {
     .title{
     margin-top: 3em;
