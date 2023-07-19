@@ -97,6 +97,41 @@ export const previous_events = [
     },
 ]
 
+export const blogs = [
+    {
+        img: '././images/home-header.png',
+        date: 'August 14, 2023',
+        category: 'Maths',
+        topic: 'Master Algebra',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        instructor: 'John',
+    },
+    {
+        img: '././images/home-header.png',
+        date: 'August 14, 2023',
+        category: 'Science',
+        topic: 'Master Algebra',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        instructor: 'John',
+    },
+    {
+        img: '././images/home-header.png',
+        date: 'August 14, 2023',
+        category: 'Fitness',
+        topic: 'Master Algebra',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        instructor: 'John',
+    },
+    {
+        img: '././images/home-header.png',
+        date: 'August 14, 2023',
+        category: 'Online',
+        topic: 'Master Algebra',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        instructor: 'John',
+    },
+]
+
 export const key_features_mathematics = [
     {
         title: 'Expert Instruction',
