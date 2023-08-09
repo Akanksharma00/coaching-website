@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/coaching-website/static/css/main.bef289d5.css",
+    "main.js": "/coaching-website/static/js/main.026e8df7.js",
+    "static/js/787.ee02342d.chunk.js": "/coaching-website/static/js/787.ee02342d.chunk.js",
+    "index.html": "/coaching-website/index.html",
+    "main.bef289d5.css.map": "/coaching-website/static/css/main.bef289d5.css.map",
+    "main.026e8df7.js.map": "/coaching-website/static/js/main.026e8df7.js.map",
+    "787.ee02342d.chunk.js.map": "/coaching-website/static/js/787.ee02342d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bef289d5.css",
+    "static/js/main.026e8df7.js"
+  ]
+}
